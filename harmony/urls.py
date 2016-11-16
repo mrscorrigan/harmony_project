@@ -18,11 +18,16 @@ from django.contrib import admin
 from harmony_app.views import get_index
 from harmony_app import views
 from accounts import views as accounts_views
+from harmony_app import views as harmony_views
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', get_index),
+    url(r'^$', harmony_views.get_index, name='index'),
     url(r'^register/$', accounts_views.register, name='register'),
+    url(r'^profile/$', accounts_views.profile, name='profile'),
+    url(r'^login/$', accounts_views.login, name='login'),
+    url(r'^logout/$', accounts_views.logout, name='logout'),
 
 ]
+
