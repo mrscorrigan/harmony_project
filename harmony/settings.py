@@ -28,6 +28,11 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'publishable key')
+STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'secret key')
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,7 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'harmony_app',
     'accounts',
-    'django_forms_bootstrap'
+    'django_forms_bootstrap',
+    'stripe',
 ]
 
 MIDDLEWARE = [
@@ -120,6 +126,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
+
+STATICFILES_DIRS = (
+   os.path.join(BASE_DIR, "static"),
+)
 
 STATIC_URL = '/static/'
 
