@@ -9,7 +9,7 @@ class UserLoginForm(forms.Form):
 
 
 class UserRegistrationForm(UserCreationForm):
-    MONTH_CHOICES = [(i, i,) for i in xrange(1, 12)]
+    MONTH_CHOICES = [(i, i,) for i in xrange(1, 13)]
     YEAR_CHOICES = [(i, i,) for i in xrange(2015, 2036)]
 
     credit_card_number = forms.CharField(label='Credit card number')

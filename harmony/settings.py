@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'publishable key')
-STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'secret key')
+STRIPE_PUBLISHABLE = 'pk_test_ZB8xTBsvZIC1ykVaHkfMjbL5'
+STRIPE_SECRET = 'sk_test_Hn0XQDLSSwJxOwd5XRj4vRpn'
 
 
 
