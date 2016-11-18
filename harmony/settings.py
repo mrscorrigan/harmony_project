@@ -46,6 +46,10 @@ INSTALLED_APPS = [
     'accounts',
     'django_forms_bootstrap',
     'stripe',
+    'blog_app',
+    'django.contrib.sites',
+    'disqus',
+    # 'django-gravatar2',
 ]
 
 MIDDLEWARE = [
@@ -123,6 +127,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+SITE_ID = 1
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
@@ -139,3 +145,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'accounts.backends.EmailAuth',
 )
+
+DISQUS_WEBSITE_SHORTNAME = 'harmony-1'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'

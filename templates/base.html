@@ -11,16 +11,19 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
     {% block head_js %}{% endblock %}
 </head>
 <body>
 <div class="container">
    <div class="masthead">
        <ul class="nav nav-pills pull-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/pages/about/">About</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/products/">Style Me</a> </li>
             <li><a href="#">Contact</a></li>
-            <li><a href="/products/">Products</a> </li>
+            <li><a href="/pages/about/">About</a></li>
+
+
 {#            <li><a href="/magazines/">Magazines</a> </li>#}
             {% if user.is_authenticated %}
                 <li><a href="{% url 'profile' %}">Profile</a></li>
@@ -30,7 +33,7 @@
                 <li><a href="{% url 'login' %}">Log In</a></li>
             {% endif %}
         </ul>
-       <h1><span class="fui-settings-16 muted">Harmonise your Wardrobe</span></h1>
+       <h1><span class="fui-settings-16 muted"><a href="/">Harmonise your Wardrobe</a></span></h1>
    </div>
    <hr>
     {% if messages %}
