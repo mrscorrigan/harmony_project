@@ -25,3 +25,8 @@ $(function() {
       return false;    
   });
 });
+
+
+$('form .autosubmit').on('change', function() {
+   this.form.submit();
+});

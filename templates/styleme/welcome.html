@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h2>{% if request.user.is_authenticated %}Welcome: {{ request.user.username }}</h2> <br><h3><a href="{% url 'styleme' %}"> let's get styling please follow this link</a></h3>
+{% else %}<a href="{% url 'login' %}">Follow this link to Login</a>{% endif %}</h1>
+
+{#    <table class="table table-striped">#}
+{#        <thead>#}
+{#            <tr>#}
+{#                <th>Name</th>#}
+{#                <th>Description</th>#}
+{#                <th>Item</th>#}
+{##}
+{#            </tr>#}
+{#        </thead>#}
+{#        <tbody>#}
+{##}
+{#            {% for styleme in stylemes %}#}
+{#            <tr>#}
+{#                <td>{{ styleme.name }}</td>#}
+{#                <td>{{ styleme.description }}</td>#}
+{#                <td>{{ styleme.image }}</td>#}
+{#            {% endfor %}#}
+{#            </tr>#}
+{#        </tbody>#}
+{#    </table>#}
+{% endblock %}

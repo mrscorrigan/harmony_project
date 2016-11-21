@@ -15,11 +15,11 @@
     {% block head_js %}{% endblock %}
 </head>
 <body>
-<div class="container">
+<div class="container" background:{% static 'images/chan.gif' %}>
    <div class="masthead">
        <ul class="nav nav-pills pull-right">
             <li><a href="/blog/">Blog</a></li>
-            <li><a href="/products/">Style Me</a> </li>
+            <li><a href="/welcome/">Style Me</a> </li>
             <li><a href="#">Contact</a></li>
             <li><a href="/pages/about/">About</a></li>
 
@@ -33,6 +33,10 @@
                 <li><a href="{% url 'login' %}">Log In</a></li>
             {% endif %}
         </ul>
+   <div>
+
+</form>
+   </div>
        <h1><span class="fui-settings-16 muted"><a href="/">Harmonise your Wardrobe</a></span></h1>
    </div>
    <hr>

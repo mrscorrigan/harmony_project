@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'blog_app',
     'django.contrib.sites',
     'disqus',
+    'styleme'
     # 'django-gravatar2',
 ]
 

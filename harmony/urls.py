@@ -22,6 +22,7 @@ from harmony_app import views as harmony_views
 from settings import MEDIA_ROOT
 from django.views.static import serve
 from accounts.views import cancel_subscription
+from styleme import views as styleme_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -34,6 +35,9 @@ urlpatterns = [
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'^cancel_subscription/$', cancel_subscription, name='cancel_subscription'),
     url(r'^cancel/$', accounts_views.cancel, name='cancel'),
+    url(r'^styleme/$', styleme_views.my_styleme, name='styleme'),
+    url(r'^welcome/$', styleme_views.get_welcome, name='welcome'),
+    url(r'^upload_pic/$', styleme_views.upload_pic, name='upload_pic'),
 
 
 
