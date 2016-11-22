@@ -38,6 +38,7 @@ urlpatterns = [
     url(r'^styleme/$', styleme_views.my_styleme, name='styleme'),
     url(r'^welcome/$', styleme_views.get_welcome, name='welcome'),
     url(r'^upload_pic/$', styleme_views.upload_pic, name='upload_pic'),
+    url(r'^items/$', styleme_views.all_items, name='items'),
 
 
 

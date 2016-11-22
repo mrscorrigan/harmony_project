@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse, Http404
 from django.db import models
 from models import ClothingItem
+from models import Item
 # Create your views here.
 
 def my_styleme(request):
@@ -19,3 +20,7 @@ def upload_pic(request):
         #     m.save()
         #     return HttpResponse('image upload success')
     return Http404 ('upload failed')
+
+def all_items(request):
+   items = Item.objects.all()
+   return render(request, "styleme/items.html", {"items": items})
