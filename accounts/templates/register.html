@@ -14,6 +14,11 @@
 {% endblock %}
 
 {% block content %}
+    <div class="container form_style">
+
+        <div class="row">
+        <div class="box-reg">
+            <div class="col-lg-9 text-center">
   <form role="form" method="post" id="register-form" action="{% url 'register' %}">
     <div id="credit-card-errors" style="display:none">
       <div class="alert-message block-message error" id="stripe-error-message"></div>
@@ -26,4 +31,8 @@
       <input class="btn btn-primary" id="validate_card_btn" name="commit" type="submit" value="Validate Credit Card">
     </div>
   </form>
+    </div>
+            </div>
+        </div>
+</div>
 {% endblock %}
