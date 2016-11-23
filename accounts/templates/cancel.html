@@ -1,14 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>You have now cancelled your subscription</h2>
-    <p>You are logged in as {{ user.email }} </p>
-    <p>Your stripe id is {{ user.stripe_id }} </p>
-    <h2>Subscription Details</h2>
-    <p>You have {{ user.subscription_end|timeuntil}} left on your subscription</p>
-    <p>
-        <a href="{% url "cancel_subscription" %}"
-           onclick="return cancel();"
-    </p>
+
+    <div class="container form_style">
+        <div class="container">
+
+            <div class="row cust_row">
+                <div class="box-reg">
+                    <h2>You have now cancelled your subscription</h2>
+                    <p>You are logged in as {{ user.email }} </p>
+                    <p>Your stripe id is {{ user.stripe_id }} </p>
+                    <h2>Subscription Details</h2>
+                    <p>You have {{ user.subscription_end|timeuntil }} left on your subscription</p>
+                    <p>
+                        <a href="{% url "cancel_subscription" %}"
+                           onclick="return cancel();"
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript">
         function cancelSubscriptionCheck() {
             if (confirm('Are you sure you want to cancel?')) {

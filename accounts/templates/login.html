@@ -2,24 +2,25 @@
 {% load bootstrap_tags %}
 {% block content %}
     <div class="container form_style">
-    <div class="container">
+        <div class="container">
 
-        <div class="row cust_row">
-            <div class="box-reg">
-                <div class="col-lg-9 text-center">
-                    <form role="form" method="post" action="{% url 'login' %}">
-                        <h2>Please log in to see the full range of services that we provide at Harmony Styles</h2>
-                        <legend>Login</legend>
-                        {% csrf_token %}
-                        {{ form| as_bootstrap }}
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Login</button>
-                        </div>
-        </div>
-            </div>
+            <div class="row cust_row">
+                <div class="box-reg">
+                    <div class="col-lg-9">
+                        <form role="form" method="post" action="{% url 'login' %}">
+                            <h4>Please log in to see the full range of services that we provide at Harmony Styles</h4>
+                            <legend>Login</legend>
+                            {% csrf_token %}
+                            {{ form| as_bootstrap }}
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+
+                    </div>
                 </div>
+            </div>
         </div>
-        </div>
-
-        </form>
+    </div>
+    </div>
+    </form>
 {% endblock %}

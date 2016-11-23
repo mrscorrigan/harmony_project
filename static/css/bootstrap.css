@@ -1590,6 +1590,14 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container-items {
+
+  padding-right: 47px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;

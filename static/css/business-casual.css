@@ -100,6 +100,26 @@ hr {
     padding-right: 43px;
     background-color: #fff;
 }
+.custblog_row {
+    /*margin-right: 0px;*/
+    margin-left: -22%;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-right: 30px;
+    margin-left: -15px;
+
+}
+
+.boxblog-reg {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 33px;
+    padding-left: 230px;
+    padding-right: 43px;
+    background-color: #fff;
+}
 .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
