@@ -30,7 +30,7 @@
                             <tr>
                             <td>{{ item.name }}</td>
                             <td>{{ item.description }}</td>
-                            <td>{{ item.image }}</td>
+                            <td><img height="100" width="100"src="{{ MEDIA_URL}}{{ item.image }}"></td>
                         {% endfor %}
                         </tr>
                         </tbody>

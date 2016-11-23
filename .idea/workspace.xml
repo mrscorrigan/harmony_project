@@ -3,21 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6cf306-ab75-4302-969f-0a088746f46c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b479189d-c52f-4e70-ba3f-edee160756c6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/b479189d-c52f-4e70-ba3f-edee160756c6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/cancel.html" afterPath="$PROJECT_DIR$/accounts/templates/cancel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/login.html" afterPath="$PROJECT_DIR$/accounts/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/profile.html" afterPath="$PROJECT_DIR$/accounts/templates/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/templates/register.html" afterPath="$PROJECT_DIR$/accounts/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog_app/templates/blogpostform.html" afterPath="$PROJECT_DIR$/blog_app/templates/blogpostform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog_app/templates/blogposts.html" afterPath="$PROJECT_DIR$/blog_app/templates/blogposts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog_app/templates/postdetail.html" afterPath="$PROJECT_DIR$/blog_app/templates/postdetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/harmony/settings.py" afterPath="$PROJECT_DIR$/harmony/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/blog.css" afterPath="$PROJECT_DIR$/static/css/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/business-casual.css" afterPath="$PROJECT_DIR$/static/css/business-casual.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleme/models.py" afterPath="$PROJECT_DIR$/styleme/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleme/templates/items.html" afterPath="$PROJECT_DIR$/styleme/templates/items.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styleme/views.py" afterPath="$PROJECT_DIR$/styleme/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/styleme/items.html" afterPath="$PROJECT_DIR$/templates/styleme/items.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/styleme/styleme.html" afterPath="$PROJECT_DIR$/templates/styleme/styleme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/styleme/welcome.html" afterPath="$PROJECT_DIR$/templates/styleme/welcome.html" />
     </list>
     <ignored path="harmony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,53 +49,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="1848">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styleme/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
-                <element signature="e#9996#10002#0#HTML" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/harmony_app/templates/index.html">
+      <file leaf-file-name="business-casual.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/business-casual.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="47" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="1709">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/templates/profile.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog_app/templates/postdetail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/styleme/items.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="877">
+              <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -104,49 +94,63 @@
       <file leaf-file-name="styleme.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/styleme/styleme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+            <state relative-caret-position="1734">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/styleme/welcome.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="21" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="990">
+              <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="99" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog_app/templates/postdetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="1626" column="5" selection-start-line="1626" selection-start-column="1" selection-end-line="1626" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="business-casual.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/business-casual.css">
+      <file leaf-file-name="blogpostform.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_app/templates/blogpostform.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+            <state relative-caret-position="297">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styleme/templates/items.html">
+      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog_app/templates/blogposts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="608">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+              <folding>
+                <marker date="1479910651917" expanded="false" signature="2287:2357" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,34 +184,34 @@
         <option value="$PROJECT_DIR$/blog_app/urls.py" />
         <option value="$PROJECT_DIR$/accounts/models.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/blog_app/templates/search.html" />
         <option value="$PROJECT_DIR$/blog_app/views.py" />
-        <option value="$PROJECT_DIR$/harmony/settings.py" />
         <option value="$PROJECT_DIR$/blog_app/forms.py" />
         <option value="$PROJECT_DIR$/static/js/stripe.js" />
         <option value="$PROJECT_DIR$/styleme/forms.py" />
-        <option value="$PROJECT_DIR$/styleme/models.py" />
         <option value="$PROJECT_DIR$/harmony/urls.py" />
-        <option value="$PROJECT_DIR$/styleme/views.py" />
         <option value="$PROJECT_DIR$/styleme/admin.py" />
         <option value="$PROJECT_DIR$/templates/base1.html" />
         <option value="$PROJECT_DIR$/harmony_app/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/css/blog.css" />
         <option value="$PROJECT_DIR$/accounts/templates/profile.html" />
-        <option value="$PROJECT_DIR$/accounts/templates/login.html" />
         <option value="$PROJECT_DIR$/accounts/templates/cancel.html" />
         <option value="$PROJECT_DIR$/accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/blog_app/templates/blogpostform.html" />
-        <option value="$PROJECT_DIR$/blog_app/templates/postdetail.html" />
-        <option value="$PROJECT_DIR$/blog_app/templates/blogposts.html" />
         <option value="$PROJECT_DIR$/templates/styleme/welcome.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/styleme/templates/items.html" />
-        <option value="$PROJECT_DIR$/templates/styleme/styleme.html" />
-        <option value="$PROJECT_DIR$/static/css/business-casual.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/styleme/models.py" />
         <option value="$PROJECT_DIR$/templates/styleme/items.html" />
+        <option value="$PROJECT_DIR$/static/css/blog.css" />
+        <option value="$PROJECT_DIR$/harmony/settings.py" />
+        <option value="$PROJECT_DIR$/templates/styleme/styleme.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/login.html" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/blog_app/templates/blogposts.html" />
+        <option value="$PROJECT_DIR$/styleme/views.py" />
+        <option value="$PROJECT_DIR$/static/css/business-casual.css" />
+        <option value="$PROJECT_DIR$/blog_app/templates/postdetail.html" />
       </list>
     </option>
   </component>
@@ -218,10 +222,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5454" />
+    <option name="x" value="8190" />
     <option name="y" value="-18" />
-    <option name="width" value="3876" />
-    <option name="height" value="2076" />
+    <option name="width" value="5796" />
+    <option name="height" value="3156" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -277,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="blog_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,71 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styleme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harmony_app" />
+              <option name="myItemId" value="blog_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -664,7 +604,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5454" y="-18" width="3876" height="2076" extended-state="6" />
+    <frame x="8190" y="-18" width="5796" height="3156" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -672,10 +612,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26353362" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32491466" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09259259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05278073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248823" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1530287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.028869996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -697,11 +637,11 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26353362" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32491466" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09259259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044912" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248823" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1530287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05278073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028869996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -722,7 +662,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/accounts/views.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -829,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/harmony/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harmony_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -895,31 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e112d815/b479189d-c52f-4e70-ba3f-edee160756c6/styleme_outfit">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harmony_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -956,34 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/harmony/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1747">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="e#641#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleme/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styleme/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -998,26 +887,6 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleme/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleme/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1043,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/cancel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1059,42 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog_app/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/templates/blogpostform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/templates/blogposts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1115,26 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/templates/postdetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/styleme/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="21" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styleme/templates/items.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1147,36 +960,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/business-casual.css">
+    <entry file="file://$PROJECT_DIR$/styleme/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        <state relative-caret-position="561">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e112d815/b479189d-c52f-4e70-ba3f-edee160756c6/styleme_outfit">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleme/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/styleme/templates/items.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="999">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
           <folding>
-            <element signature="e#9996#10002#0#HTML" expanded="true" />
+            <element signature="e#811#844#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/styleme/items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harmony/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="e#641#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harmony/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="99" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/styleme/styleme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="1734">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/styleme/items.html">
+    <entry file="file://$PROJECT_DIR$/blog_app/templates/blogpostform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="297">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_app/templates/blogposts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <marker date="1479910651917" expanded="false" signature="2287:2357" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="74" column="57" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styleme/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/business-casual.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1709">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog_app/templates/postdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

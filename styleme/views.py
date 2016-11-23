@@ -2,8 +2,10 @@ from django.shortcuts import render, HttpResponse, Http404
 from django.db import models
 from models import ClothingItem
 from models import Item
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+@login_required(login_url='/login/')
 def my_styleme(request):
     items = ClothingItem.objects.all()
     return render(request, 'styleme/styleme.html', {"items": items})

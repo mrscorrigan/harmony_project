@@ -24,10 +24,26 @@
                             </tr>
                         {% endfor %}
                         </tbody>
+
+
+
                     </table>
+<br>
+                                                                        <form>
+                        <input type="file" class="autosubmit"/>
+                    </form><br>
+                    <form action={% url 'upload_pic' %} method="post" enctype="multipart/form-data">{% csrf_token %}
+                        <input type="submit" value="Save Items"/>
                 </div>
+
+
             </div>
+
+                    </form>
         </div>
+
+
     </div>
+
     </div>
 {% endblock %}

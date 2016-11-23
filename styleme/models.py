@@ -21,6 +21,7 @@ class Outfit(models.Model):
     name = models.CharField(max_length=254, default='')
     description = models.CharField(max_length=254, default='')
     items = models.ManyToManyField(ClothingItem)
+    image = models.ImageField(upload_to="images", blank=True, null=True)
 
     def __str__(self):
         return self.name

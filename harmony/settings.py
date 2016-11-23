@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'blog_app',
     'django.contrib.sites',
     'disqus',
-    'styleme'
+    'styleme',
+    'django_gravatar',
     # 'django-gravatar2',
 ]
 
@@ -77,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media'
             ],
         },
     },

@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/oz.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -96,7 +96,7 @@ hr {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     margin-top: 33px;
-    padding-left: 230px;
+    padding-left: 147px;
     padding-right: 43px;
     background-color: #fff;
 }
@@ -110,6 +110,15 @@ hr {
 
 }
 
+#cust-post-blog_row {
+    /*margin-right: 0px;*/
+    margin-left: -22%;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-right: 30px;
+    margin-left: -138px;
+
+}
 .boxblog-reg {
     margin-bottom: 20px;
     padding: 0px 15px;

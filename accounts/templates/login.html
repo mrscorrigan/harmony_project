@@ -7,7 +7,7 @@
             <div class="row cust_row">
                 <div class="box-reg">
                     <div class="col-lg-9">
-                        <form role="form" method="post" action="{% url 'login' %}">
+                        <form role="form" method="post" action="{% url 'login' %}?next={{ next }}">
                             <h4>Please log in to see the full range of services that we provide at Harmony Styles</h4>
                             <legend>Login</legend>
                             {% csrf_token %}
