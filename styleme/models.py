@@ -28,12 +28,12 @@ class Outfit(models.Model):
 
 
 
-
-class Item(models.Model):
-    name = models.CharField(max_length=254, default='')
-    description = models.TextField()
-    image = models.ImageField(upload_to='images', default='images/new-product.jpg')
-
+#
+# class Item(models.Model):
+#     name = models.CharField(max_length=254, default='')
+#     description = models.TextField()
+#     image = models.ImageField(upload_to='images', default='images/new-product.jpg')
+#
 
 
     # @property
