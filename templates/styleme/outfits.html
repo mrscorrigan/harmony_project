@@ -1,0 +1,65 @@
+<{% extends "base.html" %}
+{% load bootstrap_tags %}
+{% load staticfiles %}
+{% block content %}
+
+    <div class="container-items form_style">
+        <div class="container">
+
+            <div class="row custblog_row">
+                <div class="boxblog-reg">
+
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                                            <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                            <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                            <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for item in items %}
+                            <tr>
+
+                                {% if post.image %}
+                                    <img src="/media/{{ post.image }}" style="width:270px; height:200px">
+                                {% endif %}
+                                <td>{{ item.name }}</td>
+                                <td>{{ item.description }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
