@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 {% load bootstrap_tags %}
+
 {% block content %}
     <div class="container">
         <div class="container-items form_style">
@@ -35,17 +36,16 @@
                             </tr>
                             </tbody>
                         </table>
-                        <form>
-
-                        </form>
-                        <form action={% url 'upload_pic' %} method="post" enctype="multipart/form-data">
-                            {% csrf_token %}
-                            <input type="file" class="autosubmit"/>
 
                     </div>
 
  {% if outfit_count > 0 %}
-     <legend>Submit</legend>
+                    <p>
+                        <button class="btn btn-primary" onclick="location.href='/outfits'">Your Style</button> Please click of Your Style button to see the styles our Stylist has chosen for you
+                    </p>
+{% endif %}
+
+                     <legend>Submit Your Item of Clothing</legend>
      {% csrf_token %}
 
                     {{ form | as_bootstrap }}
@@ -54,14 +54,27 @@
      <input class="btn brn-primary" id="submit_payment_btn" name="commit" type="submit" value="Submit">
 
      </div>
-     </form>{#                    <p>#}
+     </form>
+                <br>
+                <br>
+
+                                      <p>
+                                    <button class="btn btn-primary" onclick="location.href='/index'">Home
+                                    </button>
+                                </p>
+                </div>
+
+
+{#             {% if outfit_count > 0 %}#}
+{#                    <p>#}
 {#                        <button class="btn btn-danger" onclick="location.href='/outfits'">See Styles#}
 {#                        </button>#}
 {#                    </p>#}
-{% endif %}
-                </div>
+{#{% endif %}#}
             </div>
         </div>
+
+
     </div>
 
 {% endblock %}
