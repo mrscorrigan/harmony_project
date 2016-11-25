@@ -17,7 +17,6 @@ class ClothingItem(models.Model):
 
 class Outfit(models.Model):
     owner = models.ForeignKey('accounts.User', related_name='outfits')
-    outfit_owner = accounts_models.User
     name = models.CharField(max_length=254, default='')
     description = models.CharField(max_length=254, default='')
     items = models.ManyToManyField(ClothingItem)

@@ -44,9 +44,9 @@ def register(request):
                 messages.success(request, "You have successfully registered")
                 return redirect(reverse('profile'))
 
-                if request.GET and 'next' in request.GET:
-                    next = request.GET['next']
-                    return HttpResponseRedirect(next)
+            if request.GET and 'next' in request.GET:
+                next = request.GET['next']
+                return HttpResponseRedirect(next)
             else:
                 messages.error(request, "unable to log you in at this time!")
         else:

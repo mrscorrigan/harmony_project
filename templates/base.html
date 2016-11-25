@@ -23,12 +23,14 @@
     <!-- Custom CSS -->
 
 
-
+    <link href="{% static "slider/css/style.css" %}" rel="stylesheet">
+    <link href="{% static "slider/css/reset.css" %}" rel="stylesheet">
 
     <link href="{% static "css/bootstrap.css" %}" rel="stylesheet">
     <link href="{% static "css/business-casual.css" %}" rel="stylesheet">
 
     <link href="{% static "css/blog.css" %}" rel="stylesheet">
+
 
     <link href="https://fonts.googleapis.com/css?family=Lora|Ranga" rel="stylesheet">
 
@@ -76,7 +78,6 @@
                 <li><a href="/pages/about/">About</a></li>
 
 
-                            <li><a href="/magazines/">Magazines</a> </li>
                 {% if user.is_authenticated %}
                     <li><a href="{% url 'profile' %}">Profile</a></li>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
@@ -239,6 +240,10 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{% static "js/bootstrap.min.js" %}"></script>
 <script src="{% static "js/stripe.js" %}"></script>
+<script src="{% static "slider/js/jquery.mousewheel.js" %}"></script>
+<script src="{% static "slider/js/jquery.RotateImageMenu.js" %}"></script>
+<script src="{% static "slider/js/jquery.transform-0.9.3.min_.js" %}"></script>
+
 
 <!-- Script to Activate the Carousel -->
 <script>

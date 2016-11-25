@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
-
+{% load bootstrap_tags %}
 {% block content %}
     <div class="container">
         <div class="container-items form_style">
@@ -36,16 +36,29 @@
                             </tbody>
                         </table>
                         <form>
+
+                        </form>
+                        <form action={% url 'upload_pic' %} method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
                             <input type="file" class="autosubmit"/>
-                        </form>
-                        <form action={% url 'upload_pic' %} method="post" enctype="multipart/form-data">{% csrf_token %}
-                            <input type="submit" value="Save Items"/>
-                        </form>
+
                     </div>
-                    <p>
-                        <button class="btn btn-danger" onclick="location.href='/outfits'">See Styles
-                        </button>
-                    </p>
+
+ {% if outfit_count > 0 %}
+     <legend>Submit</legend>
+     {% csrf_token %}
+
+                    {{ form | as_bootstrap }}
+
+     <div class="from-group">
+     <input class="btn brn-primary" id="submit_payment_btn" name="commit" type="submit" value="Submit">
+
+     </div>
+     </form>{#                    <p>#}
+{#                        <button class="btn btn-danger" onclick="location.href='/outfits'">See Styles#}
+{#                        </button>#}
+{#                    </p>#}
+{% endif %}
                 </div>
             </div>
         </div>
